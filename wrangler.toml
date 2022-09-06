@@ -1,3 +1,8 @@
-name = "bottombot"
-main = "src/index.ts"
+name = "billowing-morning-0b3a"
 compatibility_date = "2022-09-06"
+node_compat = true
+workers_dev = true
+main = "./dist/worker.js"
+
+[build]
+command = "npm install && npm run build"
